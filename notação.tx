@@ -1,0 +1,2 @@
+// Quando der erro no router dom estalar essa dependencies
+yarn add @types/react-router-dom -D

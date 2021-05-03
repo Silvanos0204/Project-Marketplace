@@ -172,7 +172,7 @@ ul a:hover {
 .container-flex {
     display: flex;
     flex-direction: row;
-    border: 2px solid rgba(19, 56, 223, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.878);
     border-radius: 6px;
     width: 50vw;
     box-shadow: 0 0 19px;

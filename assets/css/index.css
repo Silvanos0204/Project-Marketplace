@@ -1,7 +1,10 @@
-body{   
-    margin: 0;
+*{
+    margin: 0; 
     padding: 0;
-    background-color: black;
+}
+body{   
+    font-family: arial, helvetica, sans-serif;
+    background-color: white;
 }
 header {
     display: flex;
@@ -13,6 +16,54 @@ header {
     justify-content: center;
     height: 120px;
 }
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+}
+ 
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color: white;
+    display:none;
+}
+
+.menu li:hover ul,
+.menu li.over ul{
+display:block;}
+
+.menu li ul li{
+   
+   display:block;
+   width:150px;
+} 
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -44,10 +95,7 @@ header {
     display: flex;
     align-items: center;
 }
-.menu {
-    display: flex;
-    align-items: center;
-}
+
 nav ul,
 nav li {
     list-style: none; /*remove os pontos*/
@@ -62,7 +110,7 @@ nav a{
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFFF;
+    color: rgb(20, 18, 18);
     font-family:  Ariel;
 }
 
@@ -71,21 +119,22 @@ nav a{
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFFF;
+    color: rgb(20, 18, 18);
     font-family:  Ariel;
     align-items: center;
 }
-nav .active a,
-nav a:hover{
-    background-color: rgb(107, 4, 4);
-}
+/* nav .active a,
+ nav a:hover{     /*destaque  */
+    /* background-color: #ffce00;
+}  */
+
 h2 {
     display: block;
     justify-content: center;
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFFF;
+    color: rgb(20, 18, 18);
     font-family:  Ariel;
 }
 /*Carrousel*/
@@ -109,7 +158,7 @@ img {
     top: 50%;
     padding: 12px;
     margin-top: -20px;
-    color: white;
+    color: rgb(20, 18, 18);
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s ease-in;
@@ -141,7 +190,7 @@ ul li {
     margin: 0.25rem 0.75rem;
 }
 ul a {
-    color: #fff;
+    color: rgb(20, 18, 18);
     text-decoration: none;
 }
 ul a:hover {
@@ -172,7 +221,7 @@ ul a:hover {
 .container-flex {
     display: flex;
     flex-direction: row;
-    border: 2px solid rgba(255, 255, 255, 0.878);
+    border: 2px solid rgb(20, 18, 18);
     border-radius: 6px;
     width: 50vw;
     box-shadow: 0 0 19px;
@@ -187,12 +236,12 @@ ul a:hover {
     padding: 10px 20px;
     margin-top: 10px;
     border:none;
-    background-color: rrgb(247, 242, 242);
+    background-color:rgb(20, 18, 18);
     cursor: pointer;
 }
 .container-flex-login {
      flex:1 0 60%;
-    color:rgba(255, 255, 255, 0.96);
+    color:rgb(20, 18, 18);
     padding: 20px 15px;
 }
 .container-flex-login h2 {
@@ -214,12 +263,12 @@ ul a:hover {
     padding: 10px 20px;
     margin-top: 10px;
     border:none;
-    background-color: rrgb(247, 242, 242);
+    background-color: rgb(20, 18, 18);
     cursor: pointer;
 }
 .container-flex-cadastro {
      flex:1 0 60%;
-    color:rgba(255, 255, 255, 0.96);
+    color:rgb(20, 18, 18);
     padding: 20px 15px;
 }
 .container-flex-cadastro h2 {
@@ -227,7 +276,7 @@ ul a:hover {
 }
 .conteiner-flex-info {
     flex: 0 1 40%;
-    background-color: rgba(247, 246, 246, 0.849);
+    background-color: rgb(20, 18, 18);
     padding-top: 20px;
 }
 .conteiner-flex-info li {

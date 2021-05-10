@@ -71,7 +71,7 @@ display:block;}
     height: 100px;
     position: relative;
 }
-.container-marcas {
+/* .container-marcas {
     display: flex;
     justify-content: center;
     height: 120px;
@@ -90,7 +90,7 @@ display:block;}
     margin: 10;
     padding: 10;
     font-size: 18px;
-}
+} */
 .logo {
     display: flex;
     align-items: center;
@@ -135,8 +135,12 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(20, 18, 18);
-    font-family:  Ariel;
+    font-family:  Ariel, sans-serif;
+    font-size: 40px;   
+    clear: right;
 }
+
+
 /*Carrousel*/
 img {
     width: 100%;

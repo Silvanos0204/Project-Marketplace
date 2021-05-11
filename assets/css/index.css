@@ -21,7 +21,7 @@ header {
     display: flex;
     align-items: center;
     list-style:none;
-    border:1px solid #c0c0c0;
+    /* border:1px solid #c0c0c0; */
     float:left;
 }
  
@@ -39,18 +39,18 @@ header {
 }
 
 .menu li a:hover{
-background:#333;
-color:#fff;
--moz-box-shadow:0 3px 10px 0 #CCC;
--webkit-box-shadow:0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
+/* background:#333; */
+color:rgb(12, 8, 8);
+-moz-box-shadow:0 3px 10px 0 rgb(211, 18, 18);
+-webkit-box-shadow:0 3px 10px 0rgb(211, 18, 18);
+/* text-shadow:0px 0px 5px rgb(211, 18, 18); */
 }
 
 .menu li  ul{
     position:absolute;
     top:25px;
     left:0;
-    background-color: white;
+    /* background-color: white; */
     display:none;
 }
 
@@ -71,7 +71,7 @@ display:block;}
     height: 100px;
     position: relative;
 }
-.container-marcas {
+/* .container-marcas {
     display: flex;
     justify-content: center;
     height: 120px;
@@ -90,7 +90,7 @@ display:block;}
     margin: 10;
     padding: 10;
     font-size: 18px;
-}
+} */
 .logo {
     display: flex;
     align-items: center;
@@ -135,8 +135,12 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(20, 18, 18);
-    font-family:  Ariel;
+    font-family:  Ariel, sans-serif;
+    font-size: 40px;   
+    clear: right;
 }
+
+
 /*Carrousel*/
 img {
     width: 100%;
@@ -208,13 +212,8 @@ ul a:hover {
     padding: 20px;
     font-size: 30px;
   }
-.flex-container-options{
-    background-color: red;
-    
-}
-
-.tiop{
-    color:white;
+.flex-container-marcas{
+    background-color: aliceblue;
 }
 
 .d-flex {
@@ -297,227 +296,3 @@ ul a:hover {
         flex-direction: column;
     }
 }
-.HO1{
-    
-    display:flex;
-    border-style: solid;           /*Configuração dos blocos das motos*/
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.HO2{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.HO3{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.HO4{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-
-.k1{
-    background-image:url("https://static3.tcdn.com.br/img/img_prod/388802/tnt_estampado_xadrez_branco_com_preto_9988_1_20210326100217.jpg");
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.k2{
-    background-image:url("https://static3.tcdn.com.br/img/img_prod/388802/tnt_estampado_xadrez_branco_com_preto_9988_1_20210326100217.jpg");
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-    
-.k3{
-    background-image:url("https://static3.tcdn.com.br/img/img_prod/388802/tnt_estampado_xadrez_branco_com_preto_9988_1_20210326100217.jpg");
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-} 
-
-.k4{
-    background-image:url("https://static3.tcdn.com.br/img/img_prod/388802/tnt_estampado_xadrez_branco_com_preto_9988_1_20210326100217.jpg");
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.S1{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.S2{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.S3{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.S4{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.Y1{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.Y2{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.Y3{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.Y4{
-    
-    display:flex;
-    border-style: solid;
-    border-width:3px;
-    border-right-width:1px;
-    border-color:rgb(163, 17, 17);
-    border-spacing:unset;
-    margin-right:2px;
-}
-
-.linkk{
-    color:red; /*Cor do link do nome/preço da moto*/
-    font-weight:bold; 
-}
-.loghoda{
-    display: flex;
-    flex-direction: row;  /*Alinhamento das logos em suas respectivas páginas*/
-    justify-content: center;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-
-  
-.logKAWA{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:10px;
-    margin-bottom:10px;
-  }
-
-  
-.logSUZU{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:10px;
-    margin-bottom:10px;
-  }
-
-  
-.logYAMA{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:10px;
-    margin-bottom:10px;
-  }
-
- .flex-container-marcas{
-     text-align: center;
- }
-
- #btninfo{
-     background-color:red;
-     color:white;
- }

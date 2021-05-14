@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="assets/image/logo.ico" />
     <link rel="stylesheet" type="text/css"  href="assets/css/index.css">
     <link rel="stylesheet" type="text/css"  href="assets/css/login.css">
 
-    <title>GP Motos | Login </title>
+    <title>Login</title>
 
 </head>
 <body>
 
-    
+ 
     <header>
         <div class="container">
             <div class="logo">
@@ -21,54 +23,48 @@
 
             <div class="menu">
                 <nav >
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#">Motos</a>
+                            <ul>
+                                <li><a href="compras.html">Compras</a></li>
+                                <li><a href="#">Vendas</a></li>
+                                <li><a href="#">Trocas</a></li>
+                                <li><a href=""#>Finanças</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sobre nós</a>
                         <ul>
-                            <li class="active"><a href="index.html">HOME</a></li>
-                            <li><a href="#">QUEM SOMOS</a></li>
-                            <li><a href="#">Vender</a>
-                                <ul>                                  
-                                     <li><a href="#">MOTOS</a></li>                                                
-                                  </ul>
-                                </li>
-                            <li><a href="compras.html">COMPRAS</a>  
-                             <ul>                               
-                                <li><a href="moto.html">MOTOS</a></li>                                                   
-                             </ul>
-                           </li>
-                        </ul>                            
+                            <li><a href="#">Quem Somos</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Login</a>  
+                            <ul>
+                                 <li><a href="login.html">Entrar</a></li>
+                                 <li><a href="cadastro.html">Cadastre-se</a></li>                                                
+                              </ul>
+                            </li>
+                    </ul>                                
                 </nav>
         </div>         
        
 </header>
-
-    <form class="form" action="">
-        <div class="card">
-            <div class="card-top">
-                <img src="assets/image/login.png" alt="imglogin">
-                <h2 class="titulo">Painel de Login</h2>
-                <p>Entre com seu Usuário é Senha</p>
-            </div>
-
-            <div class="card-group">
-                <label>Email </label>
-                <input type="email" name="email" placeholder="Digite seu e-mail" required="">
-            </div>
-
-            <div class="card-group">
-                <label>Senha </label>
-                <input type="password"name="senha"autocomplete="off" placeholder="Digite sua senha" required="" >
-            </div>
-            
-            <div class="card-group">
-                <label><input type="checkbox"> Lembre-me </label>               
-            </div>
-
-            <div class="card-group btn">
-               <button type="submit"><a href="dashboard.html">ACESSAR</a></button>               
-            </div>
-
-        </div>
-    </form>
-              
-            
+    
+<body>
+    <button id="ativar">Animar</button>
+    <div id="modal" class="animar">
+        <h1>Login</h1>
+        <label>E-mail</label>
+        <input type="text">
+        <label>Senha</label>
+        <input type="text">
+        <button>OK</button>
+    </div>
+    
+    
+       
+    <script src="./assets/js/animation.js"></script>
+    <div id="load" class="animar"></div>
 </body>
 </html>

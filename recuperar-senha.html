@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="shortcut icon" href="assets/image/logo.ico" />
     <link rel="stylesheet" type="text/css"  href="assets/css/index.css">
     <link rel="stylesheet" type="text/css"  href="assets/css/login.css">
-    <title>GP Motos | Recuperar Senha </title>
+
+    <title>Recupere sua senha</title>
 
 </head>
 <body>
 
+ 
     <header>
         <div class="container">
             <div class="logo">
@@ -20,47 +23,45 @@
 
             <div class="menu">
                 <nav >
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#">Motos</a>
+                            <ul>
+                                <li><a href="compras.html">Compras</a></li>
+                                <li><a href="#">Vendas</a></li>
+                                <li><a href="#">Trocas</a></li>
+                                <li><a href=""#>Finanças</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sobre nós</a>
                         <ul>
-                            <li class="active"><a href="index.html">HOME</a></li>
-                            <li><a href="#">QUEM SOMOS</a></li>
-                            <li><a href="#">Vender</a>
-                                <ul>                                  
-                                     <li><a href="#">MOTOS</a></li>                                                
-                                  </ul>
-                                </li>
-                            <li><a href="compras.html">COMPRAS</a>  
-                             <ul>                               
-                                <li><a href="moto.html">MOTOS</a></li>                                                   
-                             </ul>
-                           </li>
-                        </ul>                            
+                            <li><a href="#">Quem Somos</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Login</a>  
+                            <ul>
+                                 <li><a href="login.html">Entrar</a></li>
+                                 <li><a href="cadastro.html">Cadastre-se</a></li>                                                
+                              </ul>
+                            </li>
+                    </ul>                                
                 </nav>
         </div>         
        
 </header>
 
-    <form class="form" action="">
-        <div class="card">
-            <div class="card-top">
-                <img src="assets/image/login.png" alt="imglogin">
-                
-                <h2 class="titulo">Redefina sua senha</h2>
-                <p>Utilize o e-mail de cadastro na loja para redefinir sua senha</p><br>
-
-            </div>
-
-            <div class="card-group">               
-                <input type="email" name="email" placeholder="Digite seu E-mail" required="">
-            </div>         
-           
-
-            <div class="card-group btn">
-               <button type="submit">ENVIAR</button>               
-            </div>
-
-        </div>
-    </form>
-              
-            
-</body>
-</html>
+<button id="ativar">Animar</button>
+<div id="modal" class="animar">
+    <h1>Recupere sua senha</h1>
+    <label>E-mail</label>
+    <input type="email"> 
+    <label>Confirme o E-mail</label>
+    <input type="email">
+    <label>Insira uma nova senha</label>
+    <input type="password">
+    <label>Confirme a senha</label>
+    <input type="password">
+    <button>OK</button>
+    <div id="load" class="animar"></div>
+</div>

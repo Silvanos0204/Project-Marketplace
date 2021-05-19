@@ -476,3 +476,25 @@ div.option.option.js{
      background-color:red;
      color:white;
  }
+
+ .showroom{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        height:300px;
+        width:450px;
+        margin:1%;
+        padding:1%;
+    }
+
+.ficha{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        height:300px;
+        width:450px;
+        margin:1%;
+        padding:1%;
+    }   

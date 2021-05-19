@@ -204,6 +204,8 @@ ul a:hover {
 
 .flex-container {
     display: flex;
+    border: none;
+    border:1px solid #ddd;
   }
   
   .flex-container > div {  

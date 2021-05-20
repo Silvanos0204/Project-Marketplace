@@ -239,6 +239,7 @@ ul a:hover {
     width: 50vw;
     box-shadow: 0 0 19px;
 }
+
 /*Login */
 .container-flex-login input {
     padding: 10px 20px;
@@ -260,6 +261,7 @@ ul a:hover {
 .container-flex-login h2 {
     text-align: center;
 }
+
 /*cadastro */
 .d-flex cadastro {
     display: flex;
@@ -408,3 +410,195 @@ div.option.option.js{
      background-color:red;
      color:white;
  }
+ .HO1{
+    
+    display:flex;          /*Configuração dos blocos das motos*/
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.HO2{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.HO3{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.HO4{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.HO5{
+    
+    display:flex;
+    border-style: solid;
+    border-width:3px;
+    border-right-width:1px;
+    border-color:rgb(163, 17, 17);
+    border-spacing:unset;
+    margin-right:2px;
+}
+.k1{
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.k2{
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+    
+.k3{
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+} 
+
+.k4{
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.option{
+    display:flex;
+    justify-content:center;
+}
+
+.S1{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.S2{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.S3{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.S4{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.Y1{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.Y2{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.Y3{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.Y4{
+    
+    display:flex;
+    background-color: #f7f7f7;
+    margin-right:2px;
+}
+
+.linkk{
+    color:red; /*Cor do link do nome/preço da moto*/
+    font-weight:bold; 
+}
+.loghoda{
+    display: flex;
+    flex-direction: row;  /*Alinhamento das logos em suas respectivas páginas*/
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+  
+.logKAWA{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  
+.logSUZU{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  
+.logYAMA{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+ .flex-container-marcas{
+     text-align: center;
+ }
+
+ #btninfo{
+     background-color:red;
+     color:white;
+ }
+
+ .showroom{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        height:300px;
+        width:450px;
+        margin:1%;
+        padding:1%;
+    }
+
+.ficha{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        height:300px;
+        width:450px;
+        margin:1%;
+        padding:1%;
+    }   

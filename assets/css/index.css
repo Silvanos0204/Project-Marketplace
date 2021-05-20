@@ -593,12 +593,14 @@ div.option.option.js{
     }
 
 .ficha{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items:center;
-        height:300px;
+    border: none;
+    border:1px solid #ddd;
+        /* display:flex; */
+        /* flex-wrap:wrap; */
+        /* justify-content:center; */
+        /* align-items:center; */
+        /* height:300px;
         width:450px;
         margin:1%;
-        padding:1%;
+        padding:1%; */
     }   

@@ -179,10 +179,17 @@ img {
 
 /* Basic footer styles */
 footer {
+    bottom: 0;
+    background-color: #000;
+    align-items: center;
+    color: #FFF;
     width: 100%;
-    background: #111;
-    margin-top: 1.5rem;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    margin-top: auto;
 }
+
 ul {
     padding: 1.25rem;
     text-align: center;
